@@ -1,7 +1,7 @@
-package refactoring_guru.memento.example.commands;
+package udistrital.mementoejemplo.commands;
 
-import refactoring_guru.memento.example.editor.Editor;
-import refactoring_guru.memento.example.shapes.Shape;
+import udistrital.mementoejemplo.editor.Editor;
+import udistrital.mementoejemplo.shapes.Shape;
 
 public class MoveCommand implements Command {
     private Editor editor;

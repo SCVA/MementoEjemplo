@@ -1,4 +1,4 @@
-package refactoring_guru.memento.example.commands;
+package udistrital.mementoejemplo.commands;
 
 public interface Command {
     String getName();

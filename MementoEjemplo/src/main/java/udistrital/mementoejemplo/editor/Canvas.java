@@ -1,14 +1,14 @@
-package refactoring_guru.memento.example.editor;
+package udistrital.mementoejemplo.editor;
 
-import refactoring_guru.memento.example.commands.ColorCommand;
-import refactoring_guru.memento.example.commands.MoveCommand;
-import refactoring_guru.memento.example.shapes.Shape;
 
+import udistrital.mementoejemplo.commands.ColorCommand;
+import udistrital.mementoejemplo.commands.MoveCommand;
 import javax.swing.*;
 import javax.swing.border.Border;
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.image.BufferedImage;
+import udistrital.mementoejemplo.shapes.Shape;
 
 class Canvas extends java.awt.Canvas {
     private Editor editor;

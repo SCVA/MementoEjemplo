@@ -1,14 +1,13 @@
-package refactoring_guru.memento.example.editor;
+package udistrital.mementoejemplo.editor;
 
-import refactoring_guru.memento.example.commands.Command;
-import refactoring_guru.memento.example.history.History;
-import refactoring_guru.memento.example.history.Memento;
-import refactoring_guru.memento.example.shapes.CompoundShape;
-import refactoring_guru.memento.example.shapes.Shape;
-
+import udistrital.mementoejemplo.commands.Command;
 import javax.swing.*;
 import java.io.*;
 import java.util.Base64;
+import udistrital.mementoejemplo.shapes.CompoundShape;
+import udistrital.mementoejemplo.history.History;
+import udistrital.mementoejemplo.history.Memento;
+import udistrital.mementoejemplo.shapes.Shape;
 
 public class Editor extends JComponent {
     private Canvas canvas;

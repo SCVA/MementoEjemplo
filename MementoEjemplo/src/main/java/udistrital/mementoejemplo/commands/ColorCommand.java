@@ -1,9 +1,8 @@
-package refactoring_guru.memento.example.commands;
-
-import refactoring_guru.memento.example.editor.Editor;
-import refactoring_guru.memento.example.shapes.Shape;
+package udistrital.mementoejemplo.commands;
 
 import java.awt.*;
+import udistrital.mementoejemplo.editor.Editor;
+import udistrital.mementoejemplo.shapes.Shape;
 
 public class ColorCommand implements Command {
     private Editor editor;

@@ -4,12 +4,11 @@
 
 package udistrital.mementoejemplo;
 
+import udistrital.mementoejemplo.shapes.Rectangle;
+import udistrital.mementoejemplo.shapes.CompoundShape;
+import udistrital.mementoejemplo.shapes.Dot;
+import udistrital.mementoejemplo.shapes.Circle;
 import udistrital.mementoejemplo.editor.Editor;
-import refactoring_guru.memento.example.shapes.Circle;
-import refactoring_guru.memento.example.shapes.CompoundShape;
-import refactoring_guru.memento.example.shapes.Dot;
-import refactoring_guru.memento.example.shapes.Rectangle;
-
 import java.awt.*;
 
 public class MementoEjemplo {
