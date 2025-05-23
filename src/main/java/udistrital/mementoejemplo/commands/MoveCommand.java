@@ -5,8 +5,10 @@ import udistrital.mementoejemplo.shapes.Shape;
 
 public class MoveCommand implements Command {
     private Editor editor;
-    private int startX, startY;
-    private int endX, endY;
+    private int startX;
+    private int startY;
+    private int endX;
+    private int endY;
 
     public MoveCommand(Editor editor) {
         this.editor = editor;
